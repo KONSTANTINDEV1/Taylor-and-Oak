@@ -1488,6 +1488,10 @@ input::-moz-focus-inner {
   line-height: 1.333;
 }
 
+.display-2 {
+  color: white;
+}
+
 .section-intro {
   position: relative;
   margin-bottom: 12rem;
@@ -1520,15 +1524,15 @@ input::-moz-focus-inner {
 }
 
 .h-dark-bg .section-intro .display-1 {
-  color: #ffffff;
+  color: #000000;
 }
 
 .h-dark-bg .section-intro::before {
-  color: rgba(255, 255, 255, 0.08);
+  color: rgb(0 0 0 / 6%);
 }
 
 .h-dark-bg p.lead {
-  color: #ffffff;
+  color: #000000;
 }
 
 .right-vert-line {
@@ -2615,9 +2619,21 @@ html.no-csstransitions .hero-content {
 .s-services {
   padding-top: 24rem;
   padding-bottom: 20rem;
-  /* background-color: #1d1b37; */
+  background-color:white;
   position: relative;
 }
+
+.s-services::before{
+  content: "";
+    display: block;
+    background-color: #b3c2c1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: calc(50% + 12vw);
+}
+
 
 .s-services__content {
   position: relative;
@@ -2653,11 +2669,11 @@ html.no-csstransitions .hero-content {
 }
 
 .services-list h5 {
-  color: #ffffff;
+  color: #000000;
 }
 
 .services-list__item {
-  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  border-top: 1px solid rgba(0, 0, 0, 0.104);
   padding-left: 0;
 }
 
@@ -2696,8 +2712,8 @@ html.no-csstransitions .hero-content {
 }
 
 .services-list__item-header::after {
-  border-bottom: 2px solid #ffffff;
-  border-right: 2px solid #ffffff;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
   content: '';
   display: block;
   height: 6px;
@@ -2720,6 +2736,7 @@ html.no-csstransitions .hero-content {
   padding-left: 4rem;
   padding-right: 4rem;
   display: none;
+  color: #000000;
 }
 
 .is-active .services-list__item-header::after {
