@@ -85,9 +85,10 @@
 
             if (loc > triggerHeight + 150) {
                 $hdr.addClass('scrolling');
-            } else {
-                $hdr.removeClass('scrolling');
-            }
+            } 
+            // else {
+            //     $hdr.removeClass('scrolling');
+            // }
 
         });
 
@@ -254,7 +255,7 @@
             easing: 'ease-in-out',
             delay: 300,
             once: true,
-            disable: 'mobile'
+            // disable: 'mobile'
         });
 
     };
