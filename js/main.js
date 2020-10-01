@@ -77,7 +77,7 @@
                 $hdr.removeClass('sticky');
             }
 
-            if (loc > triggerHeight + 100) {
+            if (loc > triggerHeight + 20) {
                 $hdr.addClass('offset');
             } else {
                 $hdr.removeClass('offset');
