@@ -99,7 +99,7 @@ body {
 }
 
 body {
-  background: #0b0a15;
+  background:#b3c2c1;
   font-family: "Martel", serif;
   font-size: 1.8rem;
   font-style: normal;
@@ -3283,7 +3283,7 @@ html.no-csstransitions .hero-content {
 .s-footer {
   padding-top: 24rem;
   padding-bottom: 8rem;
-  /* background-color: #b3c2c1; */
+  background-color:#0b0a15;
   position: relative;
 }
 
