@@ -1646,7 +1646,7 @@ input::-moz-focus-inner {
 }
 
 .s-header.sticky {
-  background-color:lightgray;
+  background-color: #b3c2c1;
   opacity: 0;
   visibility: hidden;
   position: fixed;
@@ -1843,7 +1843,7 @@ input::-moz-focus-inner {
   color: #ffffff;
   margin: 0;
   padding: 0 4rem;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   -webkit-transform: translate3d(0, -50%, 0);
   transform: translate3d(0, -50%, 0);
   position: absolute;
@@ -3090,8 +3090,8 @@ html.no-csstransitions .hero-content {
  *
  * ------------------------------------------------------------------- */
 .s-testimonials {
-  padding-top: 14.4rem;
-  padding-bottom: 16rem;
+  /* padding-top: 14.4rem; */
+  /* padding-bottom: 16rem; */
   background-color: #ffffff;
 }
 
@@ -3283,7 +3283,7 @@ html.no-csstransitions .hero-content {
 .s-footer {
   padding-top: 24rem;
   padding-bottom: 8rem;
-  background-color: #0b0a15;
+  /* background-color: #b3c2c1; */
   position: relative;
 }
 
