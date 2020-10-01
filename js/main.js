@@ -79,9 +79,10 @@
 
             if (loc > triggerHeight + 20) {
                 $hdr.addClass('offset');
-            } else {
-                $hdr.removeClass('offset');
-            }
+            } 
+            // else {
+            //     $hdr.removeClass('offset');
+            // }
 
             if (loc > triggerHeight + 150) {
                 $hdr.addClass('scrolling');
