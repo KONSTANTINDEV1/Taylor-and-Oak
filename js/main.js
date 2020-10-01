@@ -77,19 +77,17 @@
                 $hdr.removeClass('sticky');
             }
 
-            if (loc > triggerHeight + 20) {
+            if (loc > triggerHeight + 100) {
                 $hdr.addClass('offset');
-            } 
-            // else {
-            //     $hdr.removeClass('offset');
-            // }
+            } else {
+                $hdr.removeClass('offset');
+            }
 
             if (loc > triggerHeight + 150) {
                 $hdr.addClass('scrolling');
-            } 
-            // else {
-            //     $hdr.removeClass('scrolling');
-            // }
+            } else {
+                $hdr.removeClass('scrolling');
+            }
 
         });
 
